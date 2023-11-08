@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.grocery"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@id/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".admin.OrderListDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.OrderListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ProductsListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.SellerListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.UserListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.CommunityListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.TryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CustomerSupportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SettingUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SettingSellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CommentRetrieveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CommentPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ShopReviewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.WriteReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.OrderDetailsSellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.OrderDetailsUsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EditPostSellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddPostSellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EditPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CommunityUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CommunitySellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ShopDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EditProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProfileEditSellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProfileEditUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MainUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MainSellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegisterUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegisterSellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
